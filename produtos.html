@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GestorFácil - Produtos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>GestorFácil</h1>
+        <nav>
+            <a href="index.html">Dashboard</a>
+            <a href="produtos.html" class="active">Produtos</a>
+            <a href="vendas.html">Vendas</a>
+            <a href="relatorios.html">Relatórios</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Cadastrar Produto / Serviço</h2>
+
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Ex: Refrigerante" required>
+
+            <label for="preco">Preço (Kz):</label>
+            <input type="number" id="preco" name="preco" placeholder="Ex: 500" required>
+
+            <label for="quantidade">Quantidade:</label>
+            <input type="number" id="quantidade" name="quantidade" placeholder="Ex: 20" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 GestorFácil — Gestão simplificada.</p>
+    </footer>
+</body>
+</html>
