@@ -36,6 +36,13 @@ nav a:hover {
     color: #f1faee;
     transform: scale(1.1);
 }
+
+nav a.active {
+    color: #a8dadc;
+    border-bottom: 3px solid #a8dadc;
+    padding-bottom: 4px;
+    transition: all 0.3s ease;
+}
 main {
     flex: 1;
     padding: 30px 20px;
@@ -45,6 +52,11 @@ main {
 main h2 {
     color: #264653;
     margin-bottom: 20px;
+    text-align: center;
+}
+main p {
+    font-size: 16px;
+    margin-bottom: 10px;
     text-align: center;
 }
 form {
@@ -89,7 +101,6 @@ button {
     cursor: pointer;
     transition: background 0.3s, transform 0.2s;
 }
-
 button:hover {
     background: #21867a;
     transform: scale(1.02);
@@ -120,11 +131,6 @@ footer {
     font-size: 14px;
     margin-top: auto;
 }
-main p {
-    font-size: 16px;
-    margin-bottom: 10px;
-    text-align: center;
-}
 @media (max-width: 600px) {
     header {
         flex-direction: column;
@@ -144,7 +150,6 @@ main p {
         font-size: 16px;
         padding: 5px 10px;
         border-radius: 8px;
-        display: inline-block;
     }
     nav a.active {
         border-bottom: none;
@@ -157,10 +162,3 @@ main p {
         width: 90%;
     }
 }
-nav a.active {
-    color: #a8dadc;
-    border-bottom: 3px solid #a8dadc;
-    padding-bottom: 4px;
-    transition: all 0.3s ease;
-}
-
