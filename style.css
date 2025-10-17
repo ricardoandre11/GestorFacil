@@ -153,7 +153,7 @@ footer {
     }
     nav a.active {
         border-bottom: none;
-        background: rgba(255, 255, 255, 0.2);  /* Destaque leve no link ativo */
+        background: rgba(255, 255, 255, 0.2);
     }
     form {
         width: 90%;
